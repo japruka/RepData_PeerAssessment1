@@ -99,3 +99,6 @@ ggplot(ave_df,aes(interval,mean))+geom_line()+facet_grid(status~.)+labs(y="numbe
 dev.copy(png,file= "Plot4.png")
 dev.off()
 ```
+create the "figure" file
+```{r}
+dir.create(figure)
